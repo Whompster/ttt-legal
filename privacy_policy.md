@@ -33,20 +33,40 @@ Each event carries:
 - `session_id` resets on every app launch.
 - No user-identifiable fields (name, email) are included in telemetry payloads.
 
+### Crash diagnostics (lawful basis: legitimate interests)
+When the app crashes, **Firebase Crashlytics** (a Google service) collects:
+- The exception stack trace and code path that triggered the crash.
+- Device model, OS version, app version, available memory at crash time.
+- A randomly-generated **Firebase Installation ID** that identifies the
+  app instance on your device. This is NOT linked to advertising
+  identifiers (IDFA / GAID) and is not your account email or User ID.
+
+We do **not** call Firebase's `setUserId` API, so crash reports cannot
+be tied back to your TTT account. The data is sent over HTTPS to
+Google's servers and processed under Google's
+[Firebase data processing terms](https://firebase.google.com/terms/data-processing-terms).
+
 ## 3. What we do NOT collect
 - We do not run any advertising SDK.
 - We do not sell data to third parties.
 - We do not collect location, contacts, camera, or microphone data.
 - We do not use in-app purchases or payment data (none implemented).
+- We do not call Firebase's `setUserId` API, so the diagnostic data above
+  cannot be tied to your account.
 
 ## 4. Data storage and transfers
 - Account and game data is stored in Supabase (EU region).
 - Telemetry events are sent to our own backend at `https://ttt.whompster101.com`.
+- Crash diagnostics are sent to Google Firebase Crashlytics (US region by
+  default; Google may process at any of its data centres).
 - Data may be processed in countries outside your own. By using the app you consent to this.
 
 ## 5. Data retention
 - Account data is retained until you delete your account.
 - Telemetry events are retained for 90 days then purged.
+- Firebase Crashlytics retains crash data for **90 days**, after which
+  reports are aggregated and anonymous counters are kept indefinitely
+  per Google's defaults.
 
 ## 6. Your rights (GDPR and equivalent)
 If you are in the EEA, UK, or another jurisdiction with data protection law, you have the right to:
