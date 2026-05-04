@@ -7,7 +7,7 @@ Hosted at: https://whompster.github.io/ttt-legal/privacy_policy.html
 ## 1. Who we are
 
 TTT ("we", "our", "us") is operated by Håkon Strand Aandahl.
-If you have any questions about this policy, contact us at whompster101+test@gmail.com.
+If you have any questions about this policy, contact us at whompster101+legal@gmail.com.
 
 ## 2. What data we collect and why
 
@@ -53,13 +53,13 @@ If you are in the EEA, UK, or another jurisdiction with data protection law, you
 
 - **Access** — request a copy of the personal data we hold about you.
 - **Correction** — ask us to fix inaccurate data.
-- **Deletion** — delete your account through the app (or contact us at whompster101+test@gmail.com).
+- **Deletion** — delete your account through the app (or contact us at whompster101+legal@gmail.com).
   Account deletion removes your profile and game history; telemetry events are
   anonymised (device_id zeroed) within 30 days.
 - **Portability** — receive your data in a machine-readable format.
 - **Object** — object to processing based on legitimate interests.
 
-To exercise any right, contact us at whompster101+test@gmail.com.
+To exercise any right, contact us at whompster101+legal@gmail.com.
 We will respond within 30 days.
 
 ## 7. Cookies and local storage

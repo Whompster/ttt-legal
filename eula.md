@@ -60,4 +60,4 @@ This EULA is governed by the laws of Norway.
 
 ## 9. Contact
 
-whompster101+test@gmail.com
+whompster101+legal@gmail.com

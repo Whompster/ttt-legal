@@ -12,4 +12,4 @@ Public-facing legal documents for the **TTT** mobile app
 - [Privacy Policy](privacy_policy.html)
 - [Terms of Service](terms_of_service.html)
 
-Contact: whompster101+test@gmail.com
+Contact: whompster101+legal@gmail.com

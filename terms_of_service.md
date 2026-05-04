@@ -67,4 +67,4 @@ constitutes acceptance of the updated terms.
 
 ## 10. Contact
 
-whompster101+test@gmail.com
+whompster101+legal@gmail.com
