@@ -1,6 +1,6 @@
 # Terms of Service
 
-Last updated: 2026-05-04
+Last updated: 2026-05-15
 
 Hosted at: https://whompster.github.io/ttt-legal/terms_of_service.html
 
@@ -53,7 +53,10 @@ including loss of data or account access.
 ## 7. Termination
 
 We may terminate your account at any time for breach of these terms.
-You may delete your account at any time through the app.
+You may delete your account in-app at any time from Account → Delete
+account; see the Privacy Policy §6 for what is removed vs. preserved.
+You may also email whompster101+legal@gmail.com to request deletion
+if the in-app option is unavailable.
 
 ## 8. Governing law
 

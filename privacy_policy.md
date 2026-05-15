@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Last updated: 2026-05-04
+Last updated: 2026-05-15
 
 Hosted at: https://whompster.github.io/ttt-legal/privacy_policy.html
 
@@ -73,9 +73,14 @@ If you are in the EEA, UK, or another jurisdiction with data protection law, you
 
 - **Access** — request a copy of the personal data we hold about you.
 - **Correction** — ask us to fix inaccurate data.
-- **Deletion** — delete your account through the app (or contact us at whompster101+legal@gmail.com).
-  Account deletion removes your profile and game history; telemetry events are
-  anonymised (device_id zeroed) within 30 days.
+- **Deletion** — delete your account in-app from Account → Delete
+  account. Account deletion removes your profile, friendships, and
+  consent log; pending challenges you're party to are cancelled.
+  Aggregate match history (series, matches, move log) is preserved
+  with de-identified UUIDs so opponents' records still resolve.
+  Telemetry events are anonymised (device_id zeroed) within 30 days.
+  You may also email whompster101+legal@gmail.com to request deletion
+  if the in-app option is unavailable.
 - **Portability** — receive your data in a machine-readable format.
 - **Object** — object to processing based on legitimate interests.
 
